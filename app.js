@@ -23,12 +23,12 @@ selection.forEach( (btn , index) => {
         else if(playerchoice==="Rock"){
            if(computerchoice==="Paper"){
             msg.textContent="You Lose , Computer Choose Paper";
-            msg.style.backgroundColor="Red";
+            msg.style.backgroundColor="red";
             compscore++;
            } 
            else{
             msg.textContent="You Win , Computer Choose Scissor";
-            msg.backgroundColor="Blue";
+            msg.backgroundColor="blue";
             yourscore++;
            }
         }
@@ -36,12 +36,12 @@ selection.forEach( (btn , index) => {
         else if(playerchoice==="Paper"){
             if(computerchoice==="Scissor"){
                 msg.textContent="You Lose , Computer Choose Scissor"
-                msg.style.backgroundColor="Red";
+                msg.style.backgroundColor="red";
                 compscore++;
             }
             else{
                 msg.textContent="You Win , Computer Choose Rock";
-                msg.style.backgroundColor="Blue";
+                msg.style.backgroundColor="blue";
                 yourscore++;
             }
         }
@@ -49,12 +49,12 @@ selection.forEach( (btn , index) => {
         else if(playerchoice==="Scissor"){
             if(computerchoice==="Rock"){
                 msg.textContent="You Lose , Computer Choose Rock"
-                msg.style.backgroundColor="Red";
+                msg.style.backgroundColor="red";
                 compscore++;
             }
             else{
                 msg.textContent="You Win , Computer Choose Paper";
-                msg.style.backgroundColor="Blue";
+                msg.style.backgroundColor="blue";
                 yourscore++;
             }
         }
